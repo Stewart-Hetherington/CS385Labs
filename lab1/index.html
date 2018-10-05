@@ -1,0 +1,78 @@
+<html> 
+
+<head> 
+    <!-- Required meta tags - recommended with bootstrap--> 
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+
+    <title> Three Course Menu </title> 
+    
+    <!-- import bootstrap --> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+
+    <!-- import JQuery --> 
+    <script src = "https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+
+    <!-- import our own Javascript file with our Javascript included -->     
+    <script src = "CS385Lab1.2.js"></script> 
+
+</head> 
+
+<body> 
+
+<div class="container"> <!-- the container for our page --> 
+    <div class="row"> 
+        <h1 style="text-align: center; color:green"> The Golden Triangle </h1> 
+    </div> 
+    
+    <div class="row"><!-- start a bootstrap row --> 
+            <button type="button" id = "startersBtn" onclick="startersBtnClicked()" class="btn btn-primary">Click the Starters Button</button> 
+        <br/><br/> 
+        <div id = "startersBtnOutputDiv"> 
+            <p class = "lead text-justify"> 
+            This will be the output from the activity from the Starters button clicking. The starter is.   
+            </p> 
+        </div>     
+    </div> <!-- close bootstrap row div tag -->  
+
+    <br><br> 
+
+    <div class="row"><!-- start a bootstrap row --> 
+            <button type="button" id = "mainsBtn" onclick="mainsBtnClicked()" class="btn btn-primary">Click the Mains Button</button> 
+        <br/><br/> 
+        <div id = "mainsBtnOutputDiv"> 
+            <p class = "lead text-justify"> 
+            This will be the output from the activity from the Starters button clicking. The starter is.   
+            </p> 
+        </div>     
+    </div> <!-- close bootstrap row div tag -->  
+
+    <br><br> 
+
+    <div class="row"><!-- start a bootstrap row --> 
+            <button type="button" id = "dessertBtn" onclick="dessertBtnClicked()" class="btn btn-primary">Click the Dessert Button</button> 
+        <br/><br/> 
+        <div id = "dessertBtnOutputDiv"> 
+            <p class = "lead text-justify"> 
+            This will be the output from the activity from the Dessert button clicking. The Dessert is.   
+            </p> 
+        </div>     
+    </div> <!-- close bootstrap row div tag -->  
+
+    <br><br> 
+
+    <div class="row"><!-- start a bootstrap row --> 
+            <button type="button" id = "startOverBtn" onclick="startOverBtnClicked()" class="btn btn-primary">Click to start over</button> 
+        <br/><br/> 
+        <div id = "startOverBtnOutputDiv"> 
+            <p class = "lead text-justify"> 
+            This will reset all choices.   
+            </p> 
+        </div>     
+    </div> <!-- close bootstrap row div tag -->  
+
+</div> <!-- close the container div tag for our page --> 
+
+</body> 
+
+</html>
