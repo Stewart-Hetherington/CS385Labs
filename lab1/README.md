@@ -1,6 +1,6 @@
 Follow this link to view the page:
 
-    https://htmlpreview.github.io/?https://github.com/Stewart-Hetherington/CS385Labs/blob/master/lab1/index.html
+https://htmlpreview.github.io/?https://github.com/Stewart-Hetherington/CS385Labs/blob/master/lab1/index.html
     
 Lab Task:
 
